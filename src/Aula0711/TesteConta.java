@@ -22,7 +22,7 @@ public class TesteConta {
 	        try {
 	            conta.sacar(600);
 	        } catch (ContaException e) {
-	            System.out.println(e.getMessage());
+	            System.out.println(e.getMessage());   
 	        }
 	    }
 	}
